@@ -39,11 +39,17 @@ section {
   flex-direction: column;
   justify-content: center;
   padding: 1.3rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  position: relative;
 }
 
 .container input {
   border: 1px solid black;
   padding: 0.25em 0.5em;
+}
+
+.container p {
+  font-weight: 500;
 }
 
 .container input[type='color'] {
@@ -56,6 +62,22 @@ section {
   row-gap: 0.5rem;
 }
 
+.color-heading {
+  padding-bottom: 5rem;
+}
+
 #color-box {
   border: 1px solid black;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 1000ms;
+  z-index: 50;
+  position: absolute;
+  top: 40%;
+}
+
+#name,
+#height,
+#width,
+#color {
+  margin-bottom: 0.3em;
 }
