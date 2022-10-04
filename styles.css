@@ -12,6 +12,7 @@ h3 {
 }
 
 body {
+  background-color: rgb(224 242 254);
 }
 
 main {
@@ -32,6 +33,7 @@ section {
 }
 
 .container {
+  background-color: white;
   border: 1px solid black;
   width: 200px;
   height: 200px;
@@ -73,6 +75,7 @@ section {
   z-index: 50;
   position: absolute;
   top: 40%;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
 #name,
