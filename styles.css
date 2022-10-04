@@ -64,6 +64,10 @@ section {
   row-gap: 0.5rem;
 }
 
+.input label {
+  font-weight: 600;
+}
+
 .color-heading {
   padding-bottom: 5rem;
 }
